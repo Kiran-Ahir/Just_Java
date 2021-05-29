@@ -1,8 +1,21 @@
-<resources>
-    <string name="app_name">Just Java</string>
-    <string name="Quantity_name">QUANTITY</string>
-    <string name="Quantity">0</string>
-    <string name="order">ORDER</string>
-    <string name="price_name">Price</string>
-    <string name="price">0</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Just Java</string>
+    <string name="quantity" translatable="false">QUANTITY</string>
+    <string name="quantity_value" translatable="false">1</string>
+    <string name="order_button" translatable="false">ORDER</string>
+    <string name="hint" translatable="false">Name</string>
+    <string name="toppings" translatable="false">Toppings</string>
+    <string name="whipped_cream" translatable="false">Whipped Cream</string>
+    <string name="chocolate" translatable="false">Chocolate</string>
+
+    <string name="order_summary_name" translatable="false">Name: <xliff:g id="name" example="Kiran">%s</xliff:g></string>
+    <string name="order_summary_price" translatable="false">Price: <xliff:g id="price" example="$10">%s</xliff:g></string>
+    <string name="not_less_than_one_coffee" translatable="false">You cannot have less than 1 coffee</string>
+    <string name="not_more_than_hundred_coffee" translatable="false">You cannot have more than 100 coffee</string>
+    <string name="order_summary_thank_you" translatable="false">Thank You!</string>
+    <string name="order_summary_quantity" translatable="false">Quantity: <xliff:g id="quantity" example="4">%d</xliff:g></string>
+    <string name="order_summary_add_chocolate" translatable="false">Add chocolate?: <xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+    <string name="order_summary_add_cream" translatable="false">Add whipped cream?: <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+    
+    <string name="intent_subject" translatable="false">Just Java Order For <xliff:g id="name" example="Kiran">%s</xliff:g></string>
 </resources>
